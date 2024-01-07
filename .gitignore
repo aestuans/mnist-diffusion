@@ -1,0 +1,5 @@
+models/
+data/
+runs/
+notebook.ipynb
+__pycache__

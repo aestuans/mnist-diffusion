@@ -1,0 +1,17 @@
+{
+    "name": "model_01",
+    "model_config": {
+        "encoder_feats": [64, 64, 128],
+        "decoder_feats": [128, 64, 64],
+        "embedding_feats": 16
+    },
+    "ddpm_config": {
+        "num_steps": 500,
+        "beta1": 0.0001,
+        "beta2": 0.02,
+        "drop": 0.1
+    },
+    "epochs": 15,
+    "batch_size": 256,
+    "learning_rate": 0.002
+}
